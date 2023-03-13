@@ -2,11 +2,10 @@ from flask import Flask,render_template
 app = Flask(__name__)
 
 import datetime
-adesso = datetime.datetime.now()
 
 @app.route('/', methods=['GET'])
 def home():
-    return render_template('index.html', ora = adesso)
+    return render_template('index.html', ora = datetime.datetime.now())
 
 
 @app.route('/mappa', methods=['GET'])
