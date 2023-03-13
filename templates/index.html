@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>GALVANI</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/css.css') }}">
+    
+    </head>
+
+    <body class = "sfondo">
+        <a href="/mappa"><p class = "scritte">IIS L. Galvani - Milano</p></a>
+        <img src = "{{url_for('static', filename='images/scuola.jpg')}}" class = "immagini">
+        <p>{{ora}}</p>
+    </body>
+</html>

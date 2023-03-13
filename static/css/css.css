@@ -1,0 +1,17 @@
+.scritte {
+    font-family: "Courier New", Helvetica, Arial, sans-serif;
+    color: black;
+    font-size: 100px;
+    text-align: center;
+  }
+
+.immagini {
+    text-align: center;
+    width: 700px;
+    height: 700px;
+
+}
+
+.sfondo{
+    background-color: green;
+}
